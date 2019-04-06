@@ -62,8 +62,8 @@ with tf.Session(config=config) as sess:
 
             # save the results as .png images
 
-            misc.imsave("visual_results/" + phone + "_" + photo_name + "_enhanced.png", enhanced_image)
-            misc.imsave("visual_results/" + phone + "_" + photo_name + "_before_after.png", before_after)
+            misc.imsave("../gdrive/My Drive/enhance/DPED/visual_results/" + phone + "_" + photo_name + "_enhanced.png", enhanced_image)
+            misc.imsave("../gdrive/My Drive/enhance/DPED/visual_results/" + phone + "_" + photo_name + "_before_after.png", before_after)
 
     else:
 
@@ -100,5 +100,5 @@ with tf.Session(config=config) as sess:
 
                 # save the results as .png images
 
-                misc.imsave("visual_results/" + phone + "_" + photo_name + "_iteration_" + str(i) + "_enhanced.png", enhanced_image)
-                misc.imsave("visual_results/" + phone + "_" + photo_name + "_iteration_" + str(i) + "_before_after.png", before_after)
+                misc.imsave("../gdrive/My Drive/enhance/DPED/visual_results/" + phone + "_" + photo_name + "_iteration_" + str(i) + "_enhanced.png", enhanced_image)
+                misc.imsave("../gdrive/My Drive/enhance/DPED/visual_results/" + phone + "_" + photo_name + "_iteration_" + str(i) + "_before_after.png", before_after)
